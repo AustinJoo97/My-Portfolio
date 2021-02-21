@@ -4,15 +4,28 @@
 
 nav{
     height: 70px;
+    justify-content: space-between;
 }
 
 #banner{
     height: 350px;
-    width: 120%;
-    justify-content: space-between;
-    /* margin-bottom: 25px; */
+    width: 100%;
+    /* margin-bottom: 25px */
     background-image: url("https://media.architecturaldigest.com/photos/5f9b04819206703d291b0108/master/w_1600%2Cc_limit/RxART%252520Takashi%252520Murakami%252520Childrens%252520National%252520Hospital_Kenson%252520Noele_08%252520copy%2525202.jpg");
+    text-align: right;
+    padding-top: 280px;
+    padding-left: 70%;
 } 
+
+#my_name{
+    background-color: rgb(255, 0, 149);
+    float:
+}
+
+#my_name h1{
+    font-size: 70px;
+    color: rgb(82, 211, 211);
+}
 
 /* CSS affecting contents of the body */
 .title_card{
@@ -20,10 +33,12 @@ nav{
     width: 30%;
 }
 
-.information{
+/* CSS pertaining specifically to the "about me" section of the webpage */
+#personal_info{
     height: 400px;
-    border-bottom: solid 2px rgb(31, 83, 160);
+    border: solid 2px rgb(31, 83, 160);
 }
+
 
 #skillset{
     margin: 15px 0 15px 10px;
@@ -39,9 +54,20 @@ li::before{
     color: purple;
 }
 
-.about_me{
+#about_me{
     width: 70%;
     float: right;
     line-height: 1.5;
 }
 
+/* CSS pertaining specifically to "my projects" */
+#my_projects{
+    height: 600px;
+    border: solid 2px rgb(160, 31, 31);
+}
+
+/* CSS pertaining specifically to the "contact me" part of the webpage */
+#contact_me{
+    height: 250px;
+    border: solid 2px rgb(52, 160, 31);
+}
