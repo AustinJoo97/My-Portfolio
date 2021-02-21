@@ -2,9 +2,35 @@
     box-sizing: border-box;
 }
 
+/* CSS affecting nav bar and banner of webpage */
 nav{
+    display: flex;
     height: 70px;
     justify-content: space-between;
+    background-color: rgb(255, 0, 149);
+    flex-shrink: 1 2;
+}
+
+#my_name{
+    font-size: 70px;
+    color: rgb(82, 211, 211);
+    width: 70%;
+}
+
+#nav_directory{
+    float: right;
+    /* display: inline-block; */
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+#nav_directory a{
+    font-size: 20px;
+}
+
+.links a:hover,
+.links a:focus{
+    color: rgb(19, 255, 19);
 }
 
 #banner{
@@ -17,17 +43,11 @@ nav{
     padding-left: 70%;
 } 
 
-#my_name{
-    background-color: rgb(255, 0, 149);
-    float:
+/* CSS affecting all content sections of the body */
+.information{
+    margin: 20px 0; 
 }
 
-#my_name h1{
-    font-size: 70px;
-    color: rgb(82, 211, 211);
-}
-
-/* CSS affecting contents of the body */
 .title_card{
     border: solid 2px rgb(31, 83, 160);
     width: 30%;
@@ -44,12 +64,12 @@ nav{
     margin: 15px 0 15px 10px;
 }
 
-li{
+.skill_list{
     line-height: 2;
     margin: 5px;
 }
 
-li::before{
+.skill_list::before{
     content:"\261E\ ";
     color: purple;
 }
