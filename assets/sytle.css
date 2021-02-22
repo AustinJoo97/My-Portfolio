@@ -18,7 +18,6 @@ nav{
     height: 70px;
     justify-content: space-between;
     background-color: var(--defcol2);
-    flex-shrink: 1 2;
 }
 
 #my_name{
