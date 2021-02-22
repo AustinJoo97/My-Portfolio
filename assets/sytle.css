@@ -15,13 +15,18 @@ nav{
     font-size: 70px;
     color: rgb(82, 211, 211);
     width: 70%;
+    padding-left: 10px;
 }
 
 #nav_directory{
     float: right;
-    /* display: inline-block; */
     padding-top: 5px;
-    padding-right: 10px;
+    padding-right: 30px;
+}
+
+#nav_directory li{
+    display: inline-block;
+    padding-top: 7%
 }
 
 #nav_directory a{
@@ -43,14 +48,22 @@ nav{
     padding-left: 70%;
 } 
 
-/* CSS affecting all content sections of the body */
+/* CSS affecting all/multiple content sections of the body */
 .information{
     margin: 20px 0; 
+    display: flex;
+    flex-shrink: 2;
 }
 
 .title_card{
-    border: solid 2px rgb(31, 83, 160);
+    border-right: solid 2px rgb(31, 83, 160);
     width: 30%;
+    height: 100%;
+    justify-content: center;
+}
+
+#about_me{
+    padding-left: 25px;
 }
 
 /* CSS pertaining specifically to the "about me" section of the webpage */
@@ -59,6 +72,11 @@ nav{
     border: solid 2px rgb(31, 83, 160);
 }
 
+#about_me{
+    width: 70%;
+    float: right;
+    line-height: 1.5;
+}
 
 #skillset{
     margin: 15px 0 15px 10px;
@@ -74,12 +92,6 @@ nav{
     color: purple;
 }
 
-#about_me{
-    width: 70%;
-    float: right;
-    line-height: 1.5;
-}
-
 /* CSS pertaining specifically to "my projects" */
 #my_projects{
     height: 600px;
@@ -90,4 +102,12 @@ nav{
 #contact_me{
     height: 250px;
     border: solid 2px rgb(52, 160, 31);
+}
+
+/* #contacts ul{
+    justify-content: center;
+} */
+
+#contacts li{
+    padding-top: 20%;
 }
