@@ -49,6 +49,7 @@ nav{
 .links a:hover,
 .links a:focus{
     color: var(--linkcol);
+    font-weight: bolder;
 }
 
 #banner{
@@ -61,16 +62,20 @@ nav{
     padding-left: 70%;
 } 
 
+#banner h4{
+    padding: 45px 0 3px 0;
+    color: rgb(108, 140, 245)
+}
+
 /* CSS affecting all/multiple content sections of the body */
 .information{
     margin: 20px 0; 
     display: flex;
-    flex-shrink: 0 2 auto;
     flex-wrap: wrap;
 }
 
 .title_card{
-    border-right: solid 2px rgb(31, 83, 160);
+    border-right: solid 3px var(--defcol2);
     width: 30%;
     height: 100%;
 }
@@ -78,23 +83,20 @@ nav{
 .title_card p{
     font-size: 50px;
     font-weight: 900;
-    color: var(--defcol1)
-}
-
-#about_me{
-    padding-left: 25px;
+    color: var(--defcol1);
 }
 
 /* CSS pertaining specifically to the "about me" section of the webpage */
 #personal_info{
     height: 370px;
-    /* border: solid 2px rgb(31, 83, 160); */
 }
 
 #about_me{
     width: 70%;
     float: right;
     line-height: 1.5;
+    padding-left: 25px;
+    flex-shrink: 1;
 }
 
 #skillset{
@@ -114,13 +116,12 @@ nav{
 /* CSS pertaining specifically to "my projects" */
 #my_projects{
     height: 600px;
-    border: solid 2px var(--defcol2)
+    border: solid 2px var(--defcol1)
 }
 
 /* CSS pertaining specifically to the "contact me" part of the webpage */
 #contact_me{
     height: 250px;
-    /* border: solid 2px rgb(52, 160, 31); */
 }
 
 #contacts{
@@ -145,4 +146,5 @@ nav{
 #contacts a:hover,
 #contacts a:focus{
     color: var(--linkcol);
+    font-weight: bolder;
 }
