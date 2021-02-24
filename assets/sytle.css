@@ -70,6 +70,7 @@ nav{
 .information{
     margin: 20px 0; 
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -93,6 +94,7 @@ nav{
 #about_me{
     width: 70%;
     float: right;
+    overflow: auto;
     line-height: 1.5;
     padding-left: 25px;
     flex-shrink: 1;
@@ -121,6 +123,7 @@ nav{
 /* CSS pertaining specifically to the "contact me" part of the webpage */
 #contact_me{
     height: 250px;
+    overflow: auto;
 }
 
 #contacts{
