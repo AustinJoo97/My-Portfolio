@@ -28,7 +28,7 @@ nav{
 }
 
 #nav_directory{
-    float: right;
+    /* float: right; */
     padding-top: 5px;
     padding-right: 30px;
 }
@@ -54,7 +54,6 @@ nav{
 #banner{
     height: 350px;
     width: 100%;
-    /* margin-bottom: 25px */
     background-image: url("https://media.architecturaldigest.com/photos/5f9b04819206703d291b0108/master/w_1600%2Cc_limit/RxART%252520Takashi%252520Murakami%252520Childrens%252520National%252520Hospital_Kenson%252520Noele_08%252520copy%2525202.jpg");
     text-align: right;
     padding-top: 280px;
@@ -67,10 +66,8 @@ nav{
 }
 
 /* CSS affecting all/multiple content sections of the body */
-.information{
-    margin: 20px 0; 
+#main_component{
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -78,6 +75,8 @@ nav{
     border-right: solid 3px var(--defcol2);
     width: 30%;
     height: 100%;
+    text-align: center;
+    float: left;
 }
 
 .title_card p{
@@ -86,18 +85,30 @@ nav{
     color: var(--defcol1);
 }
 
+.personal_info, 
+.my_projects,
+.contact_me { 
+    margin-top: 20px;
+}
+
+#about_me,
+#projects_display,
+#contacts{
+    width: 70%;
+    float: right;
+    align-self: center;
+}
+
 /* CSS pertaining specifically to the "about me" section of the webpage */
-#personal_info{
+.personal_info{
     height: 370px;
 }
 
 #about_me{
-    width: 70%;
-    float: right;
-    overflow: auto;
+    max-height: 370px;
+    overflow: scroll;
     line-height: 1.5;
     padding-left: 25px;
-    flex-shrink: 1;
 }
 
 #skillset{
@@ -115,19 +126,25 @@ nav{
 }
 
 /* CSS pertaining specifically to "my projects" */
-#my_projects{
+.my_projects{
     height: 600px;
     border: solid 2px var(--defcol1)
 }
 
+/* #projects_display{
+    
+} */
+
 /* CSS pertaining specifically to the "contact me" part of the webpage */
-#contact_me{
+.contact_me{
     height: 250px;
-    overflow: auto;
 }
 
 #contacts{
+    padding-top: 120px;
+    width: 70%;
     padding-left: 5%;
+    overflow: scroll;
 }
 
 #contacts strong{
@@ -136,7 +153,6 @@ nav{
 
 #contacts li{
     display: inline-block;
-    padding-top: 15%;
     padding-left: 30px;
 }
 
