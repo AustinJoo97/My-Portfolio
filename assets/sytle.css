@@ -142,7 +142,6 @@ nav{
     display: inline-block;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
     border: 1px dashed var(--defcol2)
 }
 
@@ -150,18 +149,38 @@ nav{
     box-shadow: 0px 5px 25px var(--defcol1);
 }
 
+#project1,
+#project3,
+#project4,
+#project6{
+    background-size: 50% 100%;
+}
+
+
 #project1{
     background-image: url(https://decdeg.com/wp-content/uploads/2019/10/Customized-Software-Development.png);
-    background-size: 50% 100%;
 }
 
 #project2{
     background-image: url(https://d2gfc6j4v8hvtl.cloudfront.net/wp-content/uploads/2018/11/software_apps.png);
+    background-size: 80% 100%;
 }
 
 #project3{
     background-image: url(https://pbs.twimg.com/profile_images/978722596148609024/CpqJL0HF_400x400.jpg);
-    background-size: 50% 100%;
+}
+
+#project4{
+    background-image: url(https://downloadly.net/wp-content/uploads/2020/03/AMS-Software-PhotoWorks.png);
+}
+
+#project5{
+    background-image: url(https://cdnsite.agilecrm.com/icons/sales-essentials.svg);
+    background-size: 100% 100%;
+}
+
+#project6{
+    background-image: url(https://jv16powertools.com/wordpress/wp-content/uploads/2020/07/ICON-SOFTWARE-UPDATER_256x256px.png);
 }
 
 /* CSS pertaining specifically to the "contact me" part of the webpage */
