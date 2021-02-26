@@ -7,7 +7,6 @@ This assignment entails the creation of a primitive portfolio webpage using HTML
 https://austinjoo97.github.io/my-first-portfolio-gwuhw2/
 
 
-
 ## Nav Bar
 
 The nav bar is a very simple block that has 2 parts; my name and a section with links that will direct a user to various parts of the page. The color scheme of the nav bar (and a majority of the webpage) are a neon pink and cyan as they are both highly visible and reflect my energetic personality. 
