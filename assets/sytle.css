@@ -27,6 +27,10 @@ nav{
     padding-left: 10px;
 }
 
+#nav_dropdown{
+    display: none;
+}
+
 #nav_directory{
     float: right;
     width: 27%;
@@ -225,4 +229,15 @@ nav{
 }
 
 /* Media queries begin here to adjust the viewport upon a shift in dimensions */
+/* @1220px on the x-axis, change nav list items display from inline-block to something else */
+@media screen and (max-width: 1220px){
+    #nav_directory{
+        display: none;
+    }
+
+    #nav_dropdown{
+        display: inline-block;
+        background-color: var(--defcol1);
+    }
+}
 /* USE 770px ON THE X-AXIS TO DETERMINE THE MAXIMUM A VIEWPORT CAN SHRINK BEFORE CSS IS ALTERED */
