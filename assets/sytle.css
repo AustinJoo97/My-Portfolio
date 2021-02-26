@@ -152,6 +152,7 @@ nav{
 
 .projects:hover{
     box-shadow: 0px 5px 25px var(--defcol1);
+    transform: scale(1.1);
 }
 
 #project1,
