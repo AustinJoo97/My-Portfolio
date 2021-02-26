@@ -30,6 +30,8 @@ The three sub-sections embodied by this section were divided into 2 parts; a tit
 
 This section consists of information about myself, both personal and professional, as well as technologies that I have experiencing using in the development of full-stack software. It has relevant info regarding who I am as a person and employable professional as well as info about my hobbies and ways I bide my time outside of work. In this section, I have gained experience utilizing *pseudo elements* to add small graphics before certain sections as well as how to apply CSS properties to them to make a page more captivating.
 
+Additionally, the CSS *overflow* property was utilized to the prevent the text body of this section from spilling into other portions of this webpage. As a result, upon resize the screen, the text will shift to becoming a contained element that has scroll functionality which allows the page to render in a clean way with no intrusive elements.
+
 ### My Projects
 
 This section serves as a rudimentary showcase of projects that will be completed during my studies as well as early in my career. Currently only holding six projects, each partition has linked via *anchor* tags to lead the user to an external application in a new window. Additionally, *pseudo classes* were also utilized here to cause a glow effect upon hovering over any particular project. 
