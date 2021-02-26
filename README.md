@@ -11,7 +11,7 @@ https://austinjoo97.github.io/my-first-portfolio-gwuhw2/
 
 The nav bar is a very simple block that has 2 parts; my name and a section with links that will direct a user to various parts of the page. The color scheme of the nav bar (and a majority of the webpage) are a neon pink and cyan as they are both highly visible and reflect my energetic personality. 
 
-The nav bar itself is a simple unordered list displayed using the *inline-block* property but, using media queries, will shift to become a dropdown menu with the corresponding list elements as options. Clicking a list item will cause a *smooth scroll* down to the corresponding section of the webpage and allows for easy access to any section upon initial loading.
+The nav bar itself is a simple unordered list displayed using the *inline-block* property but, using media queries, will shift to become a dropdown menu with the same list elements as options. Clicking a list item will cause a *smooth scroll* down to the corresponding section of the webpage and allows for easy access to any section upon initial loading.
 
 Addtionally, *pseudo classes* were utilized with regards to the nav bar list as hovering and/or clicking on each item will cause a change in color of the interacted item as well as causing a small increase in *font-weight*.
 
@@ -44,5 +44,9 @@ This is a simple section with three methods in which users can contact me or vie
 The overarching color scheme utilized throughout this page were implmeneted using CSS variables for ease of recycling each color. Additionally, the colors will reverse upon changing the size of the interface, a feat achieved using *CSS flexbox properties*.
 
 ## Project Demo
+### Fullscreen Demonstration
+![fullscreen demo](./assets/fullScreenDemo.gif)
 
+### Resized Demonstration
+![resized demo](./assets/resizedScreenDemo.gif)
 
