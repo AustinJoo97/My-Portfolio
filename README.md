@@ -4,6 +4,8 @@ This assignment entails the creation of a primitive portfolio webpage using HTML
 
 ## Deployed Project Link
 
+https://austinjoo97.github.io/my-first-portfolio-gwuhw2/
+
 
 
 ## Nav Bar
