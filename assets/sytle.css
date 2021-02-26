@@ -35,8 +35,6 @@ nav{
     float: right;
     width: 27%;
     padding-top: 5px;
-    /* padding-right: 30px; */
-    /* margin-right: 30px; */
 }
 
 #nav_directory li{
@@ -241,3 +239,74 @@ nav{
     }
 }
 /* USE 770px ON THE X-AXIS TO DETERMINE THE MAXIMUM A VIEWPORT CAN SHRINK BEFORE CSS IS ALTERED */
+@media screen and (max-width: 770px){
+    nav{
+        background-color: var(--defcol1);
+        min-width: 500px;
+    }
+
+    #my_name{
+        color: var(--defcol2);
+    }
+
+    #nav_dropdown{
+        background-color: var(--defcol2);
+    }
+
+    #main_component{
+        display: block;
+    }
+
+    .title_card{
+        width: 100%;
+        border-right: none;
+        border-bottom: solid 3px var(--defcol1);;
+        height: 50px;
+        margin: 10px 0;
+    }
+
+    .title_card p{
+        text-align: center;
+        color: var(--defcol2);
+    }
+
+    #about_me,
+    #projects_display,
+    #contacts{
+        width: 100%;
+        align-content: center;
+    }
+
+    #projects_display{
+        padding-left: 6%;
+    }
+
+    #contacts{
+        padding-top: 12%;
+        padding-left: 0;
+    }
+}
+
+/* @532px on the x-axis, change h1 dimensions to prevent overflow and change contacts list to block from inline-block */
+@media screen and (max-width: 532px){
+    #my_name{
+        font-size: 50px;
+        float: left;
+        padding-top: 2%;
+    }
+
+    #banner h4{
+        padding: 35px 0 3px 0;
+    }
+
+    #contacts{
+        height: 150px;
+        padding-top: 5%;
+    }
+
+    #contacts li{
+        display: block;
+        text-align: center;
+        padding-left: 0;
+    }
+}
