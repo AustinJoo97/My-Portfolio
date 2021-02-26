@@ -42,4 +42,6 @@ This is a simple section with three methods in which users can contact me or vie
 
 The overarching color scheme utilized throughout this page were implmeneted using CSS variables for ease of recycling each color. Additionally, the colors will reverse upon changing the size of the interface, a feat achieved using *CSS flexbox properties*.
 
+## Project Demo
+
 
