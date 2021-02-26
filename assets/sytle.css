@@ -282,7 +282,14 @@ nav{
     }
 
     #contacts{
-        padding-top: 12%;
+        height: 150px;
+        padding-top: 5%;
+        padding-left: 0;
+    }
+
+    #contacts li{
+        display: block;
+        text-align: center;
         padding-left: 0;
     }
 }
@@ -297,16 +304,5 @@ nav{
 
     #banner h4{
         padding: 35px 0 3px 0;
-    }
-
-    #contacts{
-        height: 150px;
-        padding-top: 5%;
-    }
-
-    #contacts li{
-        display: block;
-        text-align: center;
-        padding-left: 0;
     }
 }
