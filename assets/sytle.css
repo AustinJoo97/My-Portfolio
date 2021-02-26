@@ -128,12 +128,41 @@ nav{
 /* CSS pertaining specifically to "my projects" */
 .my_projects{
     height: 600px;
-    border: solid 2px var(--defcol1)
+    /* border: solid 2px var(--defcol1) */
 }
 
-/* #projects_display{
-    
-} */
+.my_projects a{
+    text-decoration: none;
+}
+
+.projects{
+    margin: 3%;
+    height: 150px;
+    width: 40%;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 1px dashed var(--defcol2)
+}
+
+.projects:hover{
+    box-shadow: 0px 5px 25px var(--defcol1);
+}
+
+#project1{
+    background-image: url(https://decdeg.com/wp-content/uploads/2019/10/Customized-Software-Development.png);
+    background-size: 50% 100%;
+}
+
+#project2{
+    background-image: url(https://d2gfc6j4v8hvtl.cloudfront.net/wp-content/uploads/2018/11/software_apps.png);
+}
+
+#project3{
+    background-image: url(https://pbs.twimg.com/profile_images/978722596148609024/CpqJL0HF_400x400.jpg);
+    background-size: 50% 100%;
+}
 
 /* CSS pertaining specifically to the "contact me" part of the webpage */
 .contact_me{
