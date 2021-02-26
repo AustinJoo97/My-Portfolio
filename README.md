@@ -33,7 +33,7 @@ Additionally, the CSS *overflow* property was utilized to the prevent the text b
 
 ### My Projects
 
-This section serves as a rudimentary showcase of projects that will be completed during my studies as well as early in my career. Currently only holding six projects, each partition has linked via *anchor* tags to lead the user to an external application in a new window. Additionally, *pseudo classes* were also utilized here to cause a glow effect upon hovering over any particular project. 
+This section serves as a rudimentary showcase of projects that will be completed during my studies as well as early in my career. Currently only holding six projects, each partition has linked via *anchor* tags to lead the user to an external application in a new window. Additionally, *pseudo classes* were also utilized here to cause a glow effect upon hovering over any particular project. Finally, along with the glow effect, *transform* was utilized along with *hover* to change to rescale the project interacted with to cause it to grow in place, providing it a greater degree of focus to a user.
 
 ### Contact Me
 
@@ -45,7 +45,7 @@ The overarching color scheme utilized throughout this page were implmeneted usin
 
 ## Project Demo
 ### Fullscreen Demonstration
-![fullscreen demo](./assets/fullScreenDemo.gif)
+![fullscreen demo](./assets/fullscreenDemo.gif)
 
 ### Resized Demonstration
 ![resized demo](./assets/resizedScreenDemo.gif)
