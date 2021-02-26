@@ -183,6 +183,12 @@ nav{
     background-image: url(https://jv16powertools.com/wordpress/wp-content/uploads/2020/07/ICON-SOFTWARE-UPDATER_256x256px.png);
 }
 
+.project_info{
+    background-color: var(--defcol1);
+    float: left;
+    margin-top: 100px;;
+}
+
 /* CSS pertaining specifically to the "contact me" part of the webpage */
 .contact_me{
     height: 250px;
