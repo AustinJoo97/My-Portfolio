@@ -45,8 +45,8 @@ The overarching color scheme utilized throughout this page were implmeneted usin
 
 ## Project Demo
 ### Fullscreen Demonstration
-![fullscreen demo](./assets/fullscreenDemo.gif)
+![fullscreen demo](./assets/demos/fullscreenDemo.gif)
 
 ### Resized Demonstration
-![resized demo](./assets/resizedScreenDemo.gif)
+![resized demo](./assets/demos/resizedScreenDemo.gif)
 
