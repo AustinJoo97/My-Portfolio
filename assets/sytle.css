@@ -132,6 +132,7 @@ nav{
 
 /* CSS pertaining specifically to "my projects" */
 .my_projects{
+    text-align: center;
     height: 600px;
 }
 
@@ -200,9 +201,10 @@ nav{
 }
 
 #contacts{
+    text-align: center;
     padding-top: 120px;
     width: 70%;
-    padding-left: 5%;
+    padding-right: 50px;
     overflow: scroll;
 }
 
