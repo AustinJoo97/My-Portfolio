@@ -133,7 +133,6 @@ nav{
 /* CSS pertaining specifically to "my projects" */
 .my_projects{
     height: 600px;
-    /* border: solid 2px var(--defcol1) */
 }
 
 .my_projects a{
@@ -191,8 +190,8 @@ nav{
 
 .project_info{
     background-color: var(--defcol1);
-    float: left;
-    margin-top: 100px;;
+    margin-top: 100px;
+    display: inline-block;
 }
 
 /* CSS pertaining specifically to the "contact me" part of the webpage */
@@ -240,7 +239,7 @@ nav{
     }
 }
 /* USE 770px ON THE X-AXIS TO DETERMINE THE MAXIMUM A VIEWPORT CAN SHRINK BEFORE CSS IS ALTERED */
-@media screen and (max-width: 770px){
+@media screen and (max-width: 867px){
     nav{
         background-color: var(--defcol1);
         min-width: 500px;
@@ -271,6 +270,7 @@ nav{
         color: var(--defcol2);
     }
 
+
     #about_me,
     #projects_display,
     #contacts{
@@ -296,7 +296,7 @@ nav{
 }
 
 /* @532px on the x-axis, change h1 dimensions to prevent overflow and change contacts list to block from inline-block */
-@media screen and (max-width: 532px){
+@media screen and (max-width: 655px){
     #my_name{
         font-size: 50px;
         float: left;
@@ -305,5 +305,15 @@ nav{
 
     #banner h4{
         padding: 35px 0 3px 0;
+    }
+
+    #projects_display{
+        padding-right: 25px;
+        overflow: scroll;
+        text-align: center;
+    }
+
+    .projects{
+        width: 70%;
     }
 }
