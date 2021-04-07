@@ -20,39 +20,43 @@ nav{
     background-color: var(--defcol2);
 }
 
-#my_name{
+#myName{
     font-size: 70px;
     color: var(--defcol1);
     width: 70%;
     padding-left: 10px;
 }
 
-#nav_dropdown{
+#navDropdown{
     display: none;
+    color: white;
 }
 
-#nav_directory{
+#navDirectory{
     float: right;
     width: 27%;
     padding-top: 5px;
 }
 
-#nav_directory li{
+#navDirectory li{
     display: inline-block;
     padding-top: 5%;
     padding-left: 20px;
 }
 
-#nav_directory a{
+#navDirectory a{
     font-size: 20px;
     /* color: blue; */
     /* Why do the links not change color when the above line is active? */
 }
 
+.links{
+    color: var(--defcol1);
+}
+
 .links a:hover,
 .links a:focus{
     color: var(--linkcol);
-    font-weight: bolder;
 }
 
 #banner{
@@ -70,13 +74,13 @@ nav{
 }
 
 /* CSS affecting all/multiple content sections of the body */
-#main_component{
+#mainComponent{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.title_card{
+.titleCard{
     border-right: solid 3px var(--defcol2);
     width: 30%;
     height: 100%;
@@ -84,20 +88,20 @@ nav{
     float: left;
 }
 
-.title_card p{
+.titleCard p{
     font-size: 50px;
     font-weight: 900;
     color: var(--defcol1);
 }
 
-.personal_info, 
-.my_projects,
-.contact_me { 
+.personalInfo, 
+.myProjects,
+.contactMe { 
     margin-top: 20px;
 }
 
-#about_me,
-#projects_display,
+#aboutMe,
+#projectsDisplay,
 #contacts{
     width: 70%;
     float: right;
@@ -105,11 +109,11 @@ nav{
 }
 
 /* CSS pertaining specifically to the "about me" section of the webpage */
-.personal_info{
+.personalInfo{
     height: 370px;
 }
 
-#about_me{
+#aboutMe{
     max-height: 370px;
     overflow: scroll;
     line-height: 1.5;
@@ -120,23 +124,23 @@ nav{
     margin: 15px 0 15px 10px;
 }
 
-.skill_list{
+.skillList{
     line-height: 2;
     margin: 5px;
 }
 
-.skill_list::before{
+.skillList::before{
     content:"\261E\ ";
     color: purple;
 }
 
 /* CSS pertaining specifically to "my projects" */
-.my_projects{
+.myProjects{
     text-align: center;
     height: 600px;
 }
 
-.my_projects a{
+.myProjects a{
     text-decoration: none;
 }
 
@@ -147,7 +151,8 @@ nav{
     display: inline-block;
     background-position: center;
     background-repeat: no-repeat;
-    border: 1px dashed var(--defcol2)
+    border: 1px dashed var(--defcol2);
+    overflow: auto;
 }
 
 .projects:hover{
@@ -214,10 +219,12 @@ nav{
     background-color: var(--defcol1);
     margin-top: 100px;
     display: inline-block;
+    width: 100%;
+    overflow: scroll;
 }
 
 /* CSS pertaining specifically to the "contact me" part of the webpage */
-.contact_me{
+.contactMe{
     height: 250px;
 }
 
@@ -252,11 +259,11 @@ nav{
 /* Media queries begin here to adjust the viewport upon a shift in dimensions */
 /* @1220px on the x-axis, change nav list items display from inline-block to something else */
 @media screen and (max-width: 1220px){
-    #nav_directory{
+    #navDirectory{
         display: none;
     }
 
-    #nav_dropdown{
+    #navDropdown{
         display: inline-block;
         background-color: var(--defcol1);
     }
@@ -268,19 +275,19 @@ nav{
         min-width: 500px;
     }
 
-    #my_name{
+    #myName{
         color: var(--defcol2);
     }
 
-    #nav_dropdown{
+    #navDropdown{
         background-color: var(--defcol2);
     }
 
-    #main_component{
+    #mainComponent{
         display: block;
     }
 
-    .title_card{
+    .titleCard{
         width: 100%;
         border-right: none;
         border-bottom: solid 3px var(--defcol1);;
@@ -288,20 +295,20 @@ nav{
         margin: 10px 0;
     }
 
-    .title_card p{
+    .titleCard p{
         text-align: center;
         color: var(--defcol2);
     }
 
 
-    #about_me,
-    #projects_display,
+    #aboutMe,
+    #projectsDisplay,
     #contacts{
         width: 100%;
         align-content: center;
     }
 
-    #projects_display{
+    #projectsDisplay{
         padding-left: 7%;
     }
 
@@ -320,7 +327,7 @@ nav{
 
 /* @532px on the x-axis, change h1 dimensions to prevent overflow and change contacts list to block from inline-block */
 @media screen and (max-width: 655px){
-    #my_name{
+    #myName{
         font-size: 50px;
         float: left;
         padding-top: 2%;
@@ -330,7 +337,7 @@ nav{
         padding: 35px 0 3px 0;
     }
 
-    #projects_display{
+    #projectsDisplay{
         padding-right: 25px;
         overflow: scroll;
         text-align: center;

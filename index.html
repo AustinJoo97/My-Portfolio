@@ -10,37 +10,28 @@
     <body>
 
         <nav>
-            <div id="my_name">
+            <div id="myName">
                 <h1>Austin Joo</h1>
             </div>
 
-            <select id="nav_dropdown">
-                <option value="#my_name" selected="selected">Select</option>
+            <select id="navDropdown">
+                <option selected="selected">Select</option>
 
-                <option value="#about_me" href="#about_me">
-                    <a href="#about_me">About Me</a>
-                </option>
-
-                <option value="#projects_display">
-                    <a href="#projects_display">Projects</a>
-                </option>
-
-                <option value="#contacts">
-                    <a href="#contacts">Contact Me</a>
-                </option>
-
+                <option id='aboutMeOption'>About Me</option>
+                <option id='projectsOption'>Projects</option>
+                <option id='contactMeOption'>Contact Me</option>
             </select>
 
-            <div id="nav_directory">
+            <div id="navDirectory">
                 <ul>
                     <li class="links">
-                        <a href="#about_me">About Me</a>
+                        <a id='aboutMeButton'>About Me</a>
                     </li>
                     <li class="links">
-                        <a href="#projects_display">Projects</a>
+                        <a id='projectsButton'>Projects</a>
                     </li>
                     <li class="links">
-                        <a href="#contacts">Contact Me</a>
+                        <a id='contactMeButton'>Contact Me</a>
                     </li>
                 </ul>
             </div>
@@ -52,21 +43,21 @@
         </div>
         <!-- Background main info and subtitle-->
         
-        <div id="main_component">
-            <div class="title_card personal_info">
+        <div id="mainComponent">
+            <div class="titleCard personalInfo" id='aboutMeTitle'>
                 <p>About Me</p>
             </div>
 
-            <div class="peronsal_info" id="about_me">
+            <div class="peronsalInfo" id="aboutMe">
                 <p>
                     Hello! My name is Austin Joo. I am a software engineer and am currently studying javascript-focused, full-stack software development. I completed my undergraduate program of studies at Rutgers University, The State University of New Jersey. I have experience with the following: 
                 </p>
                 <div id="skillset">
                     <ol>
-                        <li class="skill_list">Dynamic frontend user interface development using <strong>HTML5, CSS3, React.js, Bootstrap, and Foundation</strong></li>
-                        <li class="skill_list">Server development, maintenance, and multi-software communications through the use of <strong>Vanilla Javascript, jQuery, NodeJS, ExpressJS, APIs, and queries compiled in JS from Mongo and SQL</strong></li>
-                        <li class="skill_list">Database creation design, creation, population, management through <strong>Mongo</strong> and both <strong>mySQL & SQLite3</strong>
-                        <li class="skill_list">Application deployment and monitoring through <strong>Heroku</strong> and <strong>AWS</strong></li>
+                        <li class="skillList">Dynamic frontend user interface development using <strong>HTML5, CSS3, React.js, Bootstrap, and Foundation</strong></li>
+                        <li class="skillList">Server development, maintenance, and multi-software communications through the use of <strong>Vanilla Javascript, jQuery, NodeJS, ExpressJS, APIs, and queries compiled in JS from Mongo and SQL</strong></li>
+                        <li class="skillList">Database creation design, creation, population, management through <strong>Mongo</strong> and both <strong>mySQL & SQLite3</strong>
+                        <li class="skillList">Application deployment and monitoring through <strong>Heroku</strong> and <strong>AWS</strong></li>
                     </ol>
                 </div>
                 <p>I enjoy spending my free time with family and friends, playing both video and board games, exercising, practicing, teaching, and competing in the sport of TaeKwonDo, eating food, and expericing new things, some of which include skydiving, go-cart racing, and eating Korean pufferish stew.</p>
@@ -74,16 +65,16 @@
             <!-- About me div -->
     
     
-            <div class="title_card my_projects">
+            <div class="titleCard myProjects" id='projectsDisplayTitle'>
                 <p>Projects</p>
             </div>
 
-            <div class="my_projects" id="projects_display">
+            <div class="myProjects" id="projectsDisplay">
                 <a href="https://austinjoo97.github.io/MovieNightDoneRight/" target="_blank">
                     <div class="projects" id="project1">
                         <section class="project_info projLink">
                             <h4>Movie Night, Done Right!</h4>
-                            <p>Javascript/TMDB API/Foundation/HTML/CSS</p>
+                            <p>Javascript/TMDB_API/Foundation/HTML/CSS</p>
                         </section>
                         <a class='ghLink' id="ghLink1" href='https://github.com/AustinJoo97/MovieNightDoneRight' target="_blank">GitHub</a>
                     </div>
@@ -139,12 +130,12 @@
             <!-- Div highlighting previous projects -->
     
     
-            <div class="title_card contact_me">
+            <div class="titleCard contactMe" id='contactsTitle'>
                 <p>Contact Me</p>
             </div>
 
-            <div class="contact_me" id="contacts">
-                <ul id="contact_info">
+            <div class="contactMe" id="contacts">
+                <ul id="contactInfo">
                     <li><strong>Email: </strong>
                         <a>austinjoo1997@gmail.com</a>
                     </li>
@@ -164,5 +155,6 @@
             </div>
             <!-- Contact info div -->
         </div>
+        <script src='./assets/script.js'></script>
     </body>
 </html>
