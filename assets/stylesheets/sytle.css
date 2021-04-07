@@ -155,19 +155,11 @@ nav{
     transform: scale(1.1);
 }
 
-.ghLink {
-    color: orange;
-}
-
-.ghLink:hover {
-    color: var(--linkcol)
-}
 
 .projLink:hover{
     color: var(--defcol2)
 }
 
-#project3,
 #project4,
 #project6{
     background-size: 50% 100%;
@@ -180,17 +172,23 @@ nav{
     background-size: 100% 100%;
 }
 
+#ghLink1{
+    color: orange;
+}
+
 #project2{
     background-image: url(../demos/weatherReport.png);
     background-size: 100% 120%;
 }
 
-#ghLink2{
-    color: crimson;
+#project3{
+    background-image: url(../demos/workDayPlanner.png);
+    background-size: 100% 100%;
 }
 
-#project3{
-    background-image: url(https://pbs.twimg.com/profile_images/978722596148609024/CpqJL0HF_400x400.jpg);
+#ghLink2,
+#ghLink3{
+    color: black;
 }
 
 #project4{
@@ -204,6 +202,12 @@ nav{
 
 #project6{
     background-image: url(https://jv16powertools.com/wordpress/wp-content/uploads/2020/07/ICON-SOFTWARE-UPDATER_256x256px.png);
+}
+
+#ghLink1:hover,
+#ghLink2:hover,
+#ghLink3:hover{
+    color: var(--linkcol)
 }
 
 .project_info{
@@ -243,7 +247,6 @@ nav{
 #contacts a:hover,
 #contacts a:focus{
     color: var(--linkcol);
-    font-weight: bolder;
 }
 
 /* Media queries begin here to adjust the viewport upon a shift in dimensions */
