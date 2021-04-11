@@ -1,6 +1,6 @@
 # My First Portfolio
 
-This assignment entails the creation of a primitive portfolio webpage using HTML, CSS, and other functionalities such as **media queries, pseudo classes, pseudo elements, CSS variables, and flexbox** to produce a reactive front-end interface. My project consists of a *nav bar, a hero banner, an "about me" section, a partition for projects that will be updated over time, and a contact information pane*.
+This application serves as a portfolio webpage using HTML, CSS, vanilla javascript and other functionalities such as **media queries, pseudo classes, pseudo elements, CSS variables, event listeners, and flexbox** to produce a reactive front-end interface. My project consists of a *nav bar, a hero banner, an "about me" section, a partition for projects that will be updated over time, and a contact information pane*.
 
 ## Deployed Project Link
 
@@ -15,7 +15,6 @@ The nav bar itself is a simple unordered list displayed using the *inline-block*
 
 Addtionally, *pseudo classes* were utilized with regards to the nav bar list as hovering and/or clicking on each item will cause a change in color of the interacted item as well as causing a small increase in *font-weight*.
 
-**Note**: As of 3:50pm on 2/26/21, the dropdown menu items cannot actually be selected to cause the page to scroll to the corresponding elements as, after research, it was found that JS functionality was required. To keep pace with the course, I have no implemented them using *onclick* functionality.
 
 ## Hero Banner
 
