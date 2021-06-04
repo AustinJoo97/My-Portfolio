@@ -4,7 +4,7 @@ This application serves as a portfolio webpage using HTML, CSS, vanilla javascri
 
 ## Deployed Project Link
 
-https://austinjoo97.github.io/my-first-portfolio-gwuhw2/
+https://austinjoo97.github.io/My-Portfolio/
 
 
 ## Nav Bar
