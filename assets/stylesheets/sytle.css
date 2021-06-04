@@ -291,6 +291,7 @@ nav{
 
     #mainComponent{
         display: block;
+        /* flex-direction: column; */
     }
 
     .titleCard{
