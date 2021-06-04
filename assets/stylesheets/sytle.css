@@ -76,7 +76,7 @@ nav{
 /* CSS affecting all/multiple content sections of the body */
 #mainComponent{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
