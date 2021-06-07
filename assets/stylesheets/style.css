@@ -171,11 +171,6 @@ nav{
     color: var(--defcol2)
 }
 
-#project4,
-#project6{
-    background-size: 50% 100%;
-}
-
 #project1{
     background-image: url(../demos/movieNightDoneRight.png);
     text-align: center;
@@ -187,36 +182,43 @@ nav{
 }
 
 #project2{
+    background-image: url(../demos/waitForWeightLoss.png);
+    background-size: 100% 105%;
+}
+
+#ghLink2{
+    color:var(--defcol2);
+}
+
+#project3{
     background-image: url(../demos/weatherReport.png);
     background-size: 100% 120%;
 }
 
-#project3{
+#project4{
+    background-size: 100% 100%;
+    background-image: url(../demos/noteTaker.png);
+}
+
+#project5{
     background-image: url(../demos/workDayPlanner.png);
     background-size: 100% 100%;
 }
 
-#ghLink2,
-#ghLink3{
-    color: violet;
-}
-
-#project4{
-    background-image: url(https://downloadly.net/wp-content/uploads/2020/03/AMS-Software-PhotoWorks.png);
-}
-
-#project5{
-    background-image: url(https://cdnsite.agilecrm.com/icons/sales-essentials.svg);
-    background-size: 100% 100%;
+#ghLink5{
+    color: black;
 }
 
 #project6{
+    background-size: 50% 100%;
     background-image: url(https://jv16powertools.com/wordpress/wp-content/uploads/2020/07/ICON-SOFTWARE-UPDATER_256x256px.png);
 }
 
 #ghLink1:hover,
 #ghLink2:hover,
-#ghLink3:hover{
+#ghLink3:hover,
+#ghLink4:hover,
+#ghLink5:hover{
     color: var(--linkcol)
 }
 
