@@ -2,9 +2,11 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My First Portfolio</title>
         <link rel="stylesheet" type="text/css" href="./assets/stylesheets/reset.css">
-        <link rel="stylesheet" type="text/css" href="./assets/stylesheets/sytle.css">
+        <link rel="stylesheet" type="text/css" href="./assets/stylesheets/style.css">
+       
     </head>
 
     <body>
@@ -38,122 +40,124 @@
         </nav>
         <!-- Nav bar and name-->
 
-        <div id="banner">
-            <h4>&copy; Takashi Murakami</h4>
-        </div>
-        <!-- Background main info and subtitle-->
-        
-        <div id="mainComponent">
-            <div class="titleCard personalInfo" id='aboutMeTitle'>
-                <p>About Me</p>
+        <div id="mainWrapper">
+            <div id="banner">
+                <h4>&copy; Takashi Murakami</h4>
             </div>
-
-            <div class="peronsalInfo" id="aboutMe">
-                <p>
-                    Hello! My name is Austin Joo. I am a software engineer and am currently studying javascript-focused, full-stack software development. I completed my undergraduate program of studies at Rutgers University, The State University of New Jersey. I have experience with the following: 
-                </p>
-                <div id="skillset">
-                    <ol>
-                        <li class="skillList">Dynamic frontend user interface development using <strong>HTML5, CSS3, React.js, Bootstrap, and Foundation</strong></li>
-                        <li class="skillList">Server development, maintenance, and multi-software communications through the use of <strong>Vanilla Javascript, jQuery, NodeJS, ExpressJS, APIs, and queries compiled in JS from Mongo and SQL</strong></li>
-                        <li class="skillList">Database creation design, creation, population, management through <strong>Mongo</strong> and both <strong>mySQL & SQLite3</strong>
-                        <li class="skillList">Application deployment and monitoring through <strong>Heroku</strong> and <strong>AWS</strong></li>
-                    </ol>
+            <!-- Background main info and subtitle-->
+            
+            <div id="mainComponent">
+                <div class="titleCard personalInfo" id='aboutMeTitle'>
+                    <p>About Me</p>
                 </div>
-                <p>I enjoy spending my free time with family and friends, playing both video and board games, exercising, practicing, teaching, and competing in the sport of TaeKwonDo, eating food, and expericing new things, some of which include skydiving, go-cart racing, and eating Korean pufferish stew.</p>
-            </div>
-            <!-- About me div -->
     
+                <div class="peronsalInfo" id="aboutMe">
+                    <p>
+                        Hello! My name is Austin Joo. I am a software engineer and am currently studying javascript-focused, full-stack software development. I completed my undergraduate program of studies at Rutgers University, The State University of New Jersey. I have experience with the following: 
+                    </p>
+                    <div id="skillset">
+                        <ol>
+                            <li class="skillList">Dynamic frontend user interface development using <strong>HTML5, CSS3, React.js, Handlebars.js, Bootstrap, and Foundation</strong></li>
+                            <li class="skillList">Server development, maintenance, and multi-software communications through the use of <strong>Vanilla Javascript, jQuery, NodeJS, AJAX, ExpressJS, APIs, and queries compiled in JS from Mongo and SQL</strong></li>
+                            <li class="skillList">Database creation design, creation, population, management through <strong>Mongo</strong> and both <strong>mySQL & SQLite3</strong>
+                            <li class="skillList">Application deployment and monitoring through <strong>Heroku</strong> and <strong>AWS</strong></li>
+                        </ol>
+                    </div>
+                    <p>I enjoy spending my free time with family and friends, playing both video and board games, exercising, practicing, teaching, and competing in the sport of TaeKwonDo, eating food, and expericing new things, some of which include skydiving, go-cart racing, and eating Korean pufferish stew.</p>
+                </div>
+                <!-- About me div -->
+        
+        
+                <div class="titleCard myProjects" id='projectsDisplayTitle'>
+                    <p>Projects</p>
+                </div>
     
-            <div class="titleCard myProjects" id='projectsDisplayTitle'>
-                <p>Projects</p>
-            </div>
-
-            <div class="myProjects" id="projectsDisplay">
-                <a href="https://austinjoo97.github.io/MovieNightDoneRight/" target="_blank">
-                    <div class="projects" id="project1">
-                        <section class="project_info projLink">
-                            <h4>Movie Night, Done Right!</h4>
-                            <p>Javascript/TMDB_API/Foundation/HTML/CSS</p>
-                        </section>
-                        <a class='ghLink' id="ghLink1" href='https://github.com/AustinJoo97/MovieNightDoneRight' target="_blank">GitHub</a>
-                    </div>
-                </a>
-
-                <a href="https://austinjoo97.github.io/weatherReport-gwuhw6/" target="_blank">
-                    <div class="projects" id="project2">
-                        <section class="project_info projLink">
-                            <h4>Weather Report</h4>
-                            <p>Javascript/OpenWeatherAPI/Boostrap/HTML/CSS</p>
-                        </section>
-                        <a class='ghLink' id='ghLink2' href='https://github.com/AustinJoo97/weatherReport-gwuhw6' target="_blank">GitHub</a>
-                    </div>
-                </a>
-                
-                <a href="https://austinjoo97.github.io/Work-Day-Scheduler-gwuhw5/" target="_blank">
-                    <div class="projects" id="project3">
-                        <section class="project_info projLink">
-                            <h4>Work Day Planner</h4>
-                            <p>Javascript/jQuery/MomentJS/Bootstrap/HTML</p>
-                        </section>
-                        <a class='ghLink' id='ghLink3' href='https://github.com/AustinJoo97/Work-Day-Scheduler-gwuhw5' target="_blank">GitHub</a>
-                    </div>
-                </a>
-                
-                <a href="https://pokemon.com" target="_blank">
-                    <div class="projects" id="project4">
-                        <section class="project_info">
-                            <h4>Project Title 4</h4>
-                            <p>Technologies used</p>
-                        </section>
-                    </div>
-                </a>
-
-                <a href="https://crunchyroll.com" target="_blank">
-                    <div class="projects" id="project5">
-                        <section class="project_info">
-                            <h4>Project Title 5</h4>
-                            <p>Technologies used</p>
-                        </section>
-                    </div>
-                </a>
-
-                <a href="https://reddit.com" target="_blank">
-                    <div class="projects" id="project6">
-                        <section class="project_info">
-                            <h4>Project Title 6</h4>
-                            <p>Technologies used</p>
-                        </section>
-                    </div>
-                </a>
-            </div>
-            <!-- Div highlighting previous projects -->
+                <div class="myProjects" id="projectsDisplay">
+                    <a href="https://austinjoo97.github.io/MovieNightDoneRight/" target="_blank">
+                        <div class="projects" id="project1">
+                            <section class="project_info projLink">
+                                <h4>Movie Night, Done Right!</h4>
+                                <p>Javascript/TMDB_API/Foundation/HTML/CSS</p>
+                            </section>
+                            <a class='ghLink' id="ghLink1" href='https://github.com/AustinJoo97/MovieNightDoneRight' target="_blank">GitHub</a>
+                        </div>
+                    </a>
     
+                    <a href="https://austinjoo97.github.io/weatherReport-gwuhw6/" target="_blank">
+                        <div class="projects" id="project2">
+                            <section class="project_info projLink">
+                                <h4>Weather Report</h4>
+                                <p>Javascript/OpenWeatherAPI/Boostrap/HTML/CSS</p>
+                            </section>
+                            <a class='ghLink' id='ghLink2' href='https://github.com/AustinJoo97/weatherReport-gwuhw6' target="_blank">GitHub</a>
+                        </div>
+                    </a>
+                    
+                    <a href="https://austinjoo97.github.io/Work-Day-Scheduler-gwuhw5/" target="_blank">
+                        <div class="projects" id="project3">
+                            <section class="project_info projLink">
+                                <h4>Work Day Planner</h4>
+                                <p>Javascript/jQuery/MomentJS/Bootstrap/HTML</p>
+                            </section>
+                            <a class='ghLink' id='ghLink3' href='https://github.com/AustinJoo97/Work-Day-Scheduler-gwuhw5' target="_blank">GitHub</a>
+                        </div>
+                    </a>
+                    
+                    <a href="https://pokemon.com" target="_blank">
+                        <div class="projects" id="project4">
+                            <section class="project_info">
+                                <h4>Project Title 4</h4>
+                                <p>Technologies used</p>
+                            </section>
+                        </div>
+                    </a>
     
-            <div class="titleCard contactMe" id='contactsTitle'>
-                <p>Contact Me</p>
+                    <a href="https://crunchyroll.com" target="_blank">
+                        <div class="projects" id="project5">
+                            <section class="project_info">
+                                <h4>Project Title 5</h4>
+                                <p>Technologies used</p>
+                            </section>
+                        </div>
+                    </a>
+    
+                    <a href="https://reddit.com" target="_blank">
+                        <div class="projects" id="project6">
+                            <section class="project_info">
+                                <h4>Project Title 6</h4>
+                                <p>Technologies used</p>
+                            </section>
+                        </div>
+                    </a>
+                </div>
+                <!-- Div highlighting previous projects -->
+        
+        
+                <div class="titleCard contactMe" id='contactsTitle'>
+                    <p>Contact Me</p>
+                </div>
+    
+                <div class="contactMe" id="contacts">
+                    <ul id="contactInfo">
+                        <li><strong>Email: </strong>
+                            <a>austinjoo1997@gmail.com</a>
+                        </li>
+                        <li><strong>Phone: </strong>
+                            <a>(201) 787-9255</a> 
+                        </li>
+                        <li>
+                            <a href="https://github.com/AustinJoo97"><strong>GitHub</strong></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/austin-joo/"><strong>LinkedIn</strong></a>
+                        </li>
+                        <li>
+                            <a href="https://docdro.id/tTSeTLv" download="Austin_Joo_Resumé" target="_blank"><strong>Resumé</strong></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Contact info div -->
             </div>
-
-            <div class="contactMe" id="contacts">
-                <ul id="contactInfo">
-                    <li><strong>Email: </strong>
-                        <a>austinjoo1997@gmail.com</a>
-                    </li>
-                    <li><strong>Phone: </strong>
-                        <a>(201) 787-9255</a> 
-                    </li>
-                    <li>
-                        <a href="https://github.com/AustinJoo97"><strong>GitHub</strong></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/austin-joo/"><strong>LinkedIn</strong></a>
-                    </li>
-                    <li>
-                        <a href="https://docdro.id/tTSeTLv" download="Austin_Joo_Resumé" target="_blank"><strong>Resumé</strong></a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Contact info div -->
         </div>
         <script src='./assets/script.js'></script>
     </body>

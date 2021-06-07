@@ -20,6 +20,11 @@ nav{
     background-color: var(--defcol2);
 }
 
+#mainWrapper{
+    width: 100%;
+    position: relative;
+}
+
 #myName{
     font-size: 70px;
     color: var(--defcol1);
@@ -46,8 +51,6 @@ nav{
 
 #navDirectory a{
     font-size: 20px;
-    /* color: blue; */
-    /* Why do the links not change color when the above line is active? */
 }
 
 .links{
@@ -278,7 +281,6 @@ nav{
 @media screen and (max-width: 867px){
     nav{
         background-color: var(--defcol1);
-        min-width: 500px;
     }
 
     #myName{
@@ -291,7 +293,7 @@ nav{
 
     #mainComponent{
         display: block;
-        /* flex-direction: column; */
+        flex-direction: column;
     }
 
     .titleCard{
@@ -317,6 +319,7 @@ nav{
 
     #projectsDisplay{
         padding-left: 7%;
+        /* text-align: center; */
     }
 
     #contacts{
@@ -352,5 +355,12 @@ nav{
 
     .projects{
         width: 70%;
+    }
+}
+
+@media screen and (max-width: 350px){
+    #myName{
+        margin-top: 4%;
+        font-size: 30px;
     }
 }
